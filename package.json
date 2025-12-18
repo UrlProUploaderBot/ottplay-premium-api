@@ -1,14 +1,9 @@
 {
-  "name": "ottplay-premium-api",
+  "name": "ott-news-api",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "node api/search.js"
-  },
   "dependencies": {
-    "puppeteer-core": "^22.0.0",
-    "@sparticuz/chromium": "^123.0.0",
-    "node-cache": "^5.1.2"
+    "node-fetch": "^3.3.2",
+    "fast-xml-parser": "^4.3.5"
   }
 }

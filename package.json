@@ -1,0 +1,14 @@
+{
+  "name": "ottplay-premium-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node api/search.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0",
+    "@sparticuz/chromium": "^123.0.0",
+    "node-cache": "^5.1.2"
+  }
+}
